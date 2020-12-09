@@ -6,7 +6,7 @@ Go to the [exercise file](exercise.py) and complete the question below.
 Create a program that will create a sideway pyramid. The sideways height of the pyramid should be equal
 to the input. The pyramid must be composed of $ symbols.
 ## Specifications
-The input will be 0 < k ≤ 15
+The input will be 0 < k ≤ 10
 The output should be a pyramid of sideways height k.
 ## Examples
 Sample Input
