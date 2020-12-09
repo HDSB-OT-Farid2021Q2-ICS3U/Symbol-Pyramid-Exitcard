@@ -4,7 +4,9 @@ import exercise
 @pytest.mark.parametrize(
   'num1, result',
   [
-    (5, '7'),
+    (1, '$\n'),
+    (5, '$\n$$\n$$$\n$$$$\n$$$$$\n$$$$\n$$$\n$$\n$\n'),
+    (9, '$\n$$\n$$$\n$$$$\n$$$$$\n$$$$$$\n$$$$$$$\n$$$$$$$$\n$$$$$$$$$\n$$$$$$$$\n$$$$$$$\n$$$$$$\n$$$$$\n$$$$\n$$$\n$$\n$\n')
   ]
 )
 
@@ -18,7 +20,6 @@ def test_case(capsys, num1, result):
   
   exercise.main()
   out, err = capsys.readouterr()
-  out = out.replace('\n', '')
 
   assert out == result, 'for an input of {}, the output should be {} instead of {}'.format(input_values, result, out)
   assert err == ''
