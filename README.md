@@ -9,7 +9,6 @@ to the input. The pyramid must be composed of $ symbols.
 The input will be 0 < k <= 25
 The output should be a pyramid of sideways height k.
 ## Examples
-### Example 1
 Sample Input
 ```Python
 3
