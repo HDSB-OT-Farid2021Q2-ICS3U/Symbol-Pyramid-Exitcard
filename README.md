@@ -11,14 +11,18 @@ The output should be a pyramid of sideways height k.
 ## Examples
 ### Example 1
 Sample Input
+```Python
 3
+```
 
 Sample Output:
+```Python
 $
 $$
 $$$
 $$
 $
+```
 ## Run Test
 Ensure your program passes all the tests. Run test using the following command in terminal:
 ```
