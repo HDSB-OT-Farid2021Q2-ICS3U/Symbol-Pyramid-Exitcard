@@ -1,12 +1,20 @@
+# detailed prompts, detailed prints, and comments not needed for pytest
+
 def main():
-    # write your code below this line, do not delete any of the other lines
-    # make sure its tabbed over as a block of the 'def main() function'
-    x = input('example code with input')
+    # write your code below this line
+    # make sure its idented like the sample code below
+    # replace the sample addition algorithm below 
+    x = int(input(''))
+    y = int(input(''))
+    sum = x + y
+    print(sum)
 
 
-
-# Do not touch anything below this line, this is to run the function when
-# running this file
+#########################################################################
+#################### Do not modify this block ###########################
 
 if __name__ == '__main__':
     main()
+
+#################### Do not modify this block ###########################
+#########################################################################
